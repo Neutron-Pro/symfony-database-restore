@@ -16,7 +16,7 @@
         "symfony/framework-bundle": "5.2.*",
         "doctrine/doctrine-migrations-bundle": "^3.0"
     },
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
             "NeutronStars\\": "src"
         }
