@@ -1,0 +1,21 @@
+{
+    "name": "neutronstars/doctrine-database-restore",
+    "description": "Command for drop and recreate the database and reload the migrations",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "NeutronStars",
+            "email": "pro@neutronstars.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0 || ^8.0",
+        "symfony/console": "5.x-dev",
+        "symfony/framework-bundle": "5.x-dev"
+    },
+    "autoload-dev": {
+        "NeutronStars\\": "src"
+    }
+}
