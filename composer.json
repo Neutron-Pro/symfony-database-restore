@@ -17,6 +17,8 @@
         "doctrine/doctrine-migrations-bundle": "3.0.x-dev"
     },
     "autoload-dev": {
-        "NeutronStars\\": "src"
+        "psr-4": {
+            "NeutronStars\\": "src"
+        }
     }
 }
